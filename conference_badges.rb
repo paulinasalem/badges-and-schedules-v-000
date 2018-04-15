@@ -10,7 +10,7 @@ end
 newarray
 end
 
-def assign_rooms(name, x)
+def assign_rooms(name)
 x = 0
 while x<8
 puts "Hello, #{name}! You'll be assigned to room #{x}"
