@@ -16,3 +16,4 @@ while x<8
 puts "Hello, #{name}! You'll be assigned to room #{x}"
 x+=1
 end
+end
