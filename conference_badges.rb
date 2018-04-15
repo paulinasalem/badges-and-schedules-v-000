@@ -6,3 +6,4 @@ def batch_badge_creator(speakers)
   speakers.each do |makeabadge|
     makeabadge = badge_maker(name)
 end
+end
