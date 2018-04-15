@@ -3,8 +3,8 @@ def badge_maker(name)
 end
 def batch_badge_creator(speakers)
   newarray = []
-  speakers.each do |makeabadge|
-    makeabadge = badge_maker(speakers)
+  speakers.each do |speaker|
+    badge_maker(speaker)
     newarray.push(makeabadge)
 end
 newarray
