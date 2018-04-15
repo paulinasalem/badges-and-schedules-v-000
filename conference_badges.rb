@@ -9,3 +9,10 @@ def batch_badge_creator(speakers)
 end
 newarray
 end
+
+def assign_rooms(name, x)
+x = 7
+while x<8
+puts "Hello, #{name}! You'll be assigned to room #{x}"
+x+=1
+end
