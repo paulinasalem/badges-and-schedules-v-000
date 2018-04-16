@@ -18,7 +18,7 @@ end
 
 def printer(speaker)
 new_array = []
-attendees.each do |printit|
+speaker.each do |printit|
   puts badge_maker(printit)
   puts assign_rooms(printit)
   new_array.push(badge_maker(printit))
