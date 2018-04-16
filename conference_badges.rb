@@ -17,10 +17,6 @@ new_array
 end
 
 def printer(attendees)
-new_array = []
   puts batch_badge_creator(attendees)
   puts assign_rooms(attendees)
-  new_array.push(batch_badge_creator(attendees))
-  new_array.push(assign_rooms(attendees))
-new_array
 end
