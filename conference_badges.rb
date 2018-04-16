@@ -19,10 +19,10 @@ end
 def printer(attendees)
 new_array = []
 attendees.each do |printit|
-  badge_maker(attendees)
-  assign_rooms(attendees)
-  new_array.push(badge_maker(attendees))
-  new_array.push(assign_rooms(attendees))
+  badge_maker(printit)
+  assign_rooms(printit)
+  new_array.push(badge_maker(printit))
+  new_array.push(assign_rooms(printit))
 end
 new_array
 end
