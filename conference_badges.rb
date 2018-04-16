@@ -17,7 +17,7 @@ new_array
 end
 
 def printer(attendees)
-new_arrray = []
+new_array = []
 attendees.each do |printit|
   badge_maker(attendees)
   assign_rooms(attendees)
