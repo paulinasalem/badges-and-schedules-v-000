@@ -11,5 +11,5 @@ newarray
 end
 
 def assign_rooms(speaker)
-speaker.each_with_index { |speaker, index| puts "Hello, #{speaker}! You'll be assigned to room #{index}!"}
+speaker.each_with_index { |speaker, index| speaker.push("Hello, #{speaker}! You'll be assigned to room #{index}!")}
 end
