@@ -21,7 +21,7 @@ new_array = []
 speaker.each do |printit|
   batch_badge_creator(printit)
   assign_rooms(printit)
-  new_array.push(badge_maker(printit))
+  new_array.push(batch_badge_maker(printit))
   new_array.push(assign_rooms(printit))
 end
 new_array
