@@ -21,8 +21,8 @@ new_arrray = []
 attendees.each do |printit|
   badge_maker(attendees)
   assign_rooms(attendees)
-  newarray.push(badge_maker(attendees))
-  newarray.push(assign_rooms(attendees))
+  new_array.push(badge_maker(attendees))
+  new_array.push(assign_rooms(attendees))
 end
 new_array
 end
