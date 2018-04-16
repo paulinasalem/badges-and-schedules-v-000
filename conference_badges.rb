@@ -20,7 +20,7 @@ def printer(attendees)
 new_array = []
   batch_badge_creator(attendees)
   assign_rooms(attendees)
-  new_array.push(batch_badge_maker(attendees))
+  new_array.push(batch_badge_creator(attendees))
   new_array.push(assign_rooms(attendees))
 new_array
 end
