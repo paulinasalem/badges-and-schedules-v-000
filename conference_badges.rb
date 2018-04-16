@@ -24,5 +24,5 @@ attendees.each do |printit|
   newarray.push(badge_maker(attendees))
   newarray.push(assign_rooms(attendees))
 end
-newarray
+new_array
 end
