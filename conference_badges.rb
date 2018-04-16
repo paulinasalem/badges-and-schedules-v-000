@@ -19,7 +19,7 @@ end
 def printer(speaker)
 new_array = []
 speaker.each do |printit|
-  badge_maker(printit)
+  batch_badge_creator(printit)
   assign_rooms(printit)
   new_array.push(badge_maker(printit))
   new_array.push(assign_rooms(printit))
