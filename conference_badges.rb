@@ -22,6 +22,5 @@ new_array = []
   assign_rooms(attendees)
   new_array.push(batch_badge_maker(attendees))
   new_array.push(assign_rooms(attendees))
-end
 new_array
 end
