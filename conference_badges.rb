@@ -15,3 +15,14 @@ def assign_rooms(speaker)
 speaker.each_with_index { |speaker, index| new_array.push("Hello, #{speaker}! You'll be assigned to room #{index+=1}!")}
 new_array
 end
+
+def printer(attendees)
+new_arrray = []
+attendees.each do |printit|
+  badge_maker(attendees)
+  assign_rooms(attendees)
+  newarray.push(badge_maker(attendees))
+  newarray.push(assign_rooms(attendees))
+end
+newarray
+end
