@@ -16,7 +16,7 @@ speaker.each_with_index { |speaker, index| new_array.push("Hello, #{speaker}! Yo
 new_array
 end
 
-def printer(attendees)
+def printer(speaker)
 new_array = []
 attendees.each do |printit|
   badge_maker(printit)
